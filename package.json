@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "social media made by will-turner",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "nodemon server"
+  },
+  "author": "will-turner",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  }
+}
