@@ -1,7 +1,8 @@
 //about server and principals components
 const express = require("express");
+require('dotenv').config({path: './config/.env'})
 const app = express();
 
-app.listen('5000', ()=> {
-    console.log("server slistening on port 5000")
+app.listen(process.env.PORT, ()=> {
+    console.log(`server slistening on port ${process.env.PORT}`)
 })
