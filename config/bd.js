@@ -4,8 +4,8 @@ mongoose
   .connect(
     "mongodb+srv://" + process.env.DB_USER_PASS + "@cluster0.58kad.mongodb.net/reseau-social",
     {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+      // useNewUrlParser: true,
+      // useUnifiedTopology: true,
     //   useCreateIndex: true,
     //   useFindAndModify: false,
     }
